@@ -25,5 +25,10 @@ Before you start: This problem seems extremely simple, but many, many developers
 
 You already know everything you need to solve that problem, but if you’d like some hints then I’ll add some below.
 
-Please go ahead and try building the playground now.
 
+# here are some hints:
+
+You can check whether one number is a multiple of another by using .isMultiple(of:). For example, i.isMultiple(of: 3).
+In this instance you need to check for 3 and 5 first because it’s the most specific, then 3, then 5, and finally have an else block to handle all other numbers.
+You can either use && to check for numbers that are multiples of 3 and 5, or have a nested if statement.
+You need to count from 1 through 100, so use ... rather than ..<.
