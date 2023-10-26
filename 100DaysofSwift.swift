@@ -1,6 +1,6 @@
 //day_6
 
-//closure
+// closures
 let driving = {
     print("im on my way ")
 }
