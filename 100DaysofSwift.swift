@@ -1,4 +1,4 @@
-#day_6
+//day_6
 
 //closure
 let driving = {
